@@ -1,0 +1,161 @@
+module entrance(
+		input resetn,clock, EN,
+		output plot,finish,
+		output reg [7:0]x,
+		output reg [6:0]y,
+		output [2:0]colour_out);
+	wire b1,b2;
+	wire [7:0]x1,x2;
+	wire [6:0]y1,y2;
+	wire finish_draw_b1,finish_draw_b2;
+	//datapath
+	datapathentrance d0(
+	.resetn(resetn), 
+	.clock(clock),
+	.b1(b1),.b2(b2),
+	
+	.x1(x1),.x2(x2),
+	.y1(y1),.y2(y2),
+	.colour_out(colour_out),
+	.finish_draw_b1(finish_draw_b1),.finish_draw_b2(finish_draw_b2));
+	// assign colour
+	
+	wire enb1,enb2;
+	//control
+	FSMentrance f0(
+	.clock(clock), .resetn(resetn), .EN(EN),
+	.enb1(enb1),.enb2(enb2),
+	.b1(b1),.b2(b2), .plot(plot), .finish(finish),
+	.finish_draw_b1(finish_draw_b1),.finish_draw_b2(finish_draw_b2));
+	
+	always @(*)
+	begin
+		if (enb1 == 1'b1)begin
+			x = x1;
+			y = y1;
+			end
+		else if (enb2 == 1'b1)begin
+			x = x2;
+			y = y2;
+			end
+	end
+		
+endmodule
+
+
+module datapathentrance(
+	input resetn, clock,
+	input  b1,b2,
+	output [7:0]x1,x2,
+	output [6:0]y1,y2,
+	output reg [2:0] colour_out,
+	output finish_draw_b1,finish_draw_b2);
+//assign colour
+	always @(posedge clock)
+	begin
+		if (resetn == 1'b0)
+			colour_out = 3'b000;
+		else if (b1)
+			colour_out = 3'b100;
+		else if (b2)begin
+			colour_out = 3'b000;
+		end
+		else
+			colour_out = 3'b100;
+	end
+	
+	
+	//draW_B1
+	reg [11:0]q;
+	reg [5:0]q1;
+	always @(posedge clock)
+	begin
+		if (!resetn)
+			q <= 12'd0;
+		else if (q == 12'b111111111111)
+			q <= 12'd0;
+		else if (b1 == 1'b1)
+			q <= q + 1;
+	end
+	//draW_B2
+	always @(posedge clock)
+	begin
+		if (!resetn)
+			q1 <= 6'd0;
+		else if (q == 6'b111111)
+			q1 <= 6'd0;
+		else if (b2 == 1'b1)
+			q1 <= q1 + 1;
+	end
+	assign x1 = q[7:0];
+	assign y1 = q[11:8];
+	assign x2 = 4 + q1[2:0];
+	assign y2 = 4 + q1[5:3];
+	assign finish_draw_b1 = (q == 12'b111111111111)? 1:0;
+	assign finish_draw_b2 = (q1 == 6'b111111)? 1:0;
+
+endmodule
+
+module FSMentrance (
+	input clock, resetn,finish_draw_b1,finish_draw_b2, EN,
+	output reg enb1, enb2, b1, b2, plot, finish);
+
+reg [3:0] current_state, next_state;
+	
+	localparam 
+				Begin   = 4'd0,
+				WAIT    = 4'd1,
+				DRAW_B1 = 4'd2,
+				DRAW_B2 = 4'd3;
+					
+
+	always @(*)
+	begin: state_table
+		case (current_state)
+			Begin: next_state = EN? DRAW_B1 : Begin;
+			DRAW_B1: next_state = finish_draw_b1? DRAW_B2 : DRAW_B1;
+			DRAW_B2: next_state = finish_draw_b2? Begin : DRAW_B2;
+			WAIT: next_state = Begin;
+			default: next_state = Begin;
+		endcase
+	end
+	
+	always @(*)
+	begin: signals
+		plot = 1'b0;
+		enb1 = 1'b0;
+		enb2 = 1'b0;
+		b1 = 1'b0;
+		b2 = 1'b0;
+		finish = 1'b0;
+		
+		case (current_state)
+		Begin:begin
+		
+		end
+		DRAW_B1:begin
+			b1 = 1'b1;
+			enb1 = 1'b1;
+			plot = 1'b1;
+		end
+		DRAW_B2:begin
+			b2 = 1'b1;
+			enb2 = 1'b1;
+			plot = 1'b1;
+		end
+		WAIT:begin
+			finish = 1'b1;
+		end
+		
+		endcase
+	end
+	
+	
+always@(posedge clock)
+    begin: state_FFs
+        if(!resetn)
+            current_state <= Begin;
+        else
+            current_state <= next_state;
+    end // state_FFS
+endmodule

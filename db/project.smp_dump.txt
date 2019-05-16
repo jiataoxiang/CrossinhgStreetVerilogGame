@@ -1,0 +1,176 @@
+
+State Machine - |project|BIGFSM:F1|current_state
+Name current_state.Crush current_state.CAR12 current_state.CAR11 current_state.CAR61 current_state.CAR21 current_state.ENTRANCE current_state.END current_state.CAR10 current_state.CAR91 current_state.CAR9 current_state.CAR8 current_state.CAR7 current_state.CAR6 current_state.CAR5 current_state.Clear current_state.Human1 current_state.CAR4 current_state.CAR3 current_state.CAR2 current_state.CAR1 current_state.BackGround current_state.Menu current_state.Initiate 
+current_state.Initiate 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.Menu 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.BackGround 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.CAR1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.CAR2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.CAR3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.CAR4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.Human1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.Clear 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.CAR5 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.CAR6 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.CAR7 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.CAR8 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.CAR9 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.CAR91 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.CAR10 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.END 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.ENTRANCE 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.CAR21 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.CAR61 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.CAR11 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.CAR12 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.Crush 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |project|human:h1|FSMPeople:f1|current_state
+Name current_state.WAIT current_state.DRAW current_state.NEW_XY current_state.ERASE 
+current_state.ERASE 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.WAIT 1 0 0 1 
+
+State Machine - |project|car12:c12|FSM12:F1|current_state
+Name current_state.ERASE current_state.DRAW current_state.NEW_XY current_state.WAIT 
+current_state.WAIT 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.ERASE 1 0 0 1 
+
+State Machine - |project|car11:c11|FSM11:F1|current_state
+Name current_state.ERASE current_state.DRAW current_state.NEW_XY current_state.WAIT 
+current_state.WAIT 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.ERASE 1 0 0 1 
+
+State Machine - |project|motocar10:c10|FSMcar10:F1|current_state
+Name current_state.ERASE current_state.DRAW current_state.NEW_XY current_state.WAIT 
+current_state.WAIT 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.ERASE 1 0 0 1 
+
+State Machine - |project|motocar9:c9|FSMcar9:F1|current_state
+Name current_state.ERASE current_state.DRAW current_state.NEW_XY current_state.WAIT 
+current_state.WAIT 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.ERASE 1 0 0 1 
+
+State Machine - |project|car8:c8|FSMcar8:F1|current_state
+Name current_state.ERASE current_state.DRAW current_state.NEW_XY current_state.WAIT 
+current_state.WAIT 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.ERASE 1 0 0 1 
+
+State Machine - |project|car7:c7|FSMcar7:F1|current_state
+Name current_state.ERASE current_state.DRAW current_state.NEW_XY current_state.WAIT 
+current_state.WAIT 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.ERASE 1 0 0 1 
+
+State Machine - |project|car6:c6|FSMcar6:F1|current_state
+Name current_state.WAIT current_state.DRAW current_state.NEW_XY current_state.ERASE 
+current_state.ERASE 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.WAIT 1 0 0 1 
+
+State Machine - |project|car5:c5|FSMcar5:F1|current_state
+Name current_state.ERASE current_state.DRAW current_state.NEW_XY current_state.WAIT 
+current_state.WAIT 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.ERASE 1 0 0 1 
+
+State Machine - |project|car4:c4|FSM4:F1|current_state
+Name current_state.ERASE current_state.DRAW current_state.NEW_XY current_state.WAIT 
+current_state.WAIT 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.ERASE 1 0 0 1 
+
+State Machine - |project|car3:c3|FSM2:F1|current_state
+Name current_state.ERASE current_state.DRAW current_state.NEW_XY current_state.WAIT 
+current_state.WAIT 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.ERASE 1 0 0 1 
+
+State Machine - |project|car2:c2|FSM:F1|current_state
+Name current_state.WAIT current_state.DRAW current_state.NEW_XY current_state.ERASE 
+current_state.ERASE 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.WAIT 1 0 0 1 
+
+State Machine - |project|car1:c1|FSM1:F1|current_state
+Name current_state.ERASE current_state.DRAW current_state.NEW_XY current_state.WAIT 
+current_state.WAIT 0 0 0 0 
+current_state.NEW_XY 0 0 1 1 
+current_state.DRAW 0 1 0 1 
+current_state.ERASE 1 0 0 1 
+
+State Machine - |project|endgame:e0|FSMe:Fe|current_state
+Name current_state.DRAW_b1 current_state.WAIT current_state.DRAW_b11 current_state.DRAW_b10 current_state.DRAW_b9 current_state.DRAW_b8 current_state.DRAW_b7 current_state.DRAW_b6 current_state.DRAW_b5 current_state.DRAW_b4 current_state.DRAW_b3 current_state.DRAW_b2 current_state.Begin 
+current_state.Begin 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.DRAW_b2 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.DRAW_b3 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.DRAW_b4 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.DRAW_b5 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.DRAW_b6 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.DRAW_b7 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.DRAW_b8 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.DRAW_b9 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.DRAW_b10 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.DRAW_b11 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.WAIT 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.DRAW_b1 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |project|crush:crush0|FSMcrush:Fm|current_state
+Name current_state.DRAW_b1 current_state.WAIT current_state.DRAW_b7 current_state.DRAW_b6 current_state.DRAW_b5 current_state.DRAW_b4 current_state.DRAW_b3 current_state.DRAW_b2 current_state.RESET 
+current_state.RESET 0 0 0 0 0 0 0 0 0 
+current_state.DRAW_b2 0 0 0 0 0 0 0 1 1 
+current_state.DRAW_b3 0 0 0 0 0 0 1 0 1 
+current_state.DRAW_b4 0 0 0 0 0 1 0 0 1 
+current_state.DRAW_b5 0 0 0 0 1 0 0 0 1 
+current_state.DRAW_b6 0 0 0 1 0 0 0 0 1 
+current_state.DRAW_b7 0 0 1 0 0 0 0 0 1 
+current_state.WAIT 0 1 0 0 0 0 0 0 1 
+current_state.DRAW_b1 1 0 0 0 0 0 0 0 1 
+
+State Machine - |project|menu:m0|FSMm:Fm|current_state
+Name current_state.DRAW_b1 current_state.WAIT current_state.DRAW_b7 current_state.DRAW_b6 current_state.DRAW_b5 current_state.DRAW_b4 current_state.DRAW_b3 current_state.DRAW_b2 current_state.RESET 
+current_state.RESET 0 0 0 0 0 0 0 0 0 
+current_state.DRAW_b2 0 0 0 0 0 0 0 1 1 
+current_state.DRAW_b3 0 0 0 0 0 0 1 0 1 
+current_state.DRAW_b4 0 0 0 0 0 1 0 0 1 
+current_state.DRAW_b5 0 0 0 0 1 0 0 0 1 
+current_state.DRAW_b6 0 0 0 1 0 0 0 0 1 
+current_state.DRAW_b7 0 0 1 0 0 0 0 0 1 
+current_state.WAIT 0 1 0 0 0 0 0 0 1 
+current_state.DRAW_b1 1 0 0 0 0 0 0 0 1 
+
+State Machine - |project|background:b0|FSM3:f0|current_state
+Name current_state.DRAW_b1 current_state.WAIT current_state.DRAW_v2 current_state.DRAW_v1 current_state.DRAW_h2 current_state.DRAW_h1 current_state.Begin 
+current_state.Begin 0 0 0 0 0 0 0 
+current_state.DRAW_h1 0 0 0 0 0 1 1 
+current_state.DRAW_h2 0 0 0 0 1 0 1 
+current_state.DRAW_v1 0 0 0 1 0 0 1 
+current_state.DRAW_v2 0 0 1 0 0 0 1 
+current_state.WAIT 0 1 0 0 0 0 1 
+current_state.DRAW_b1 1 0 0 0 0 0 1 
+
+State Machine - |project|entrance:entrance0|FSMentrance:f0|current_state
+Name current_state.DRAW_B4 current_state.DRAW_B3 current_state.DRAW_B2 current_state.DRAW_B1 current_state.WAIT current_state.Begin 
+current_state.Begin 0 0 0 0 0 0 
+current_state.WAIT 0 0 0 0 1 1 
+current_state.DRAW_B1 0 0 0 1 0 1 
+current_state.DRAW_B2 0 0 1 0 0 1 
+current_state.DRAW_B3 0 1 0 0 0 1 
+current_state.DRAW_B4 1 0 0 0 0 1 

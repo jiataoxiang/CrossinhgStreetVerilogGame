@@ -1,0 +1,517 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -8.747
+TNS   : -3171.838
+
+Type  : Slow 1100mV 85C Model Setup 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : -8.126
+TNS   : -73.342
+
+Type  : Slow 1100mV 85C Model Setup 'endgame:e0|FSMe:Fe|current_state.DRAW_b1'
+Slack : -7.496
+TNS   : -56.488
+
+Type  : Slow 1100mV 85C Model Setup 'menu:m0|FSMm:Fm|current_state.RESET'
+Slack : -7.238
+TNS   : -89.501
+
+Type  : Slow 1100mV 85C Model Setup 'crush:crush0|FSMcrush:Fm|current_state.RESET'
+Slack : -6.803
+TNS   : -93.885
+
+Type  : Slow 1100mV 85C Model Setup 'entrance:entrance0|FSMentrance:f0|current_state.Begin'
+Slack : -5.228
+TNS   : -53.817
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[0]'
+Slack : -4.980
+TNS   : -616.405
+
+Type  : Slow 1100mV 85C Model Setup 'background:b0|FSM3:f0|current_state.Begin'
+Slack : -4.756
+TNS   : -67.265
+
+Type  : Slow 1100mV 85C Model Setup 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 31.418
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'endgame:e0|FSMe:Fe|current_state.DRAW_b1'
+Slack : -0.076
+TNS   : -0.076
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -0.004
+TNS   : -0.004
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[0]'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.411
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : 0.684
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'menu:m0|FSMm:Fm|current_state.RESET'
+Slack : 2.749
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'background:b0|FSM3:f0|current_state.Begin'
+Slack : 2.752
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'crush:crush0|FSMcrush:Fm|current_state.RESET'
+Slack : 2.863
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'entrance:entrance0|FSMentrance:f0|current_state.Begin'
+Slack : 3.283
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : -6.036
+TNS   : -12.051
+
+Type  : Slow 1100mV 85C Model Recovery 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : -3.258
+TNS   : -80.084
+
+Type  : Slow 1100mV 85C Model Removal 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : 0.506
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.252
+TNS   : -1.683
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'crush:crush0|FSMcrush:Fm|current_state.RESET'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'entrance:entrance0|FSMentrance:f0|current_state.Begin'
+Slack : 0.214
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : 0.223
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'menu:m0|FSMm:Fm|current_state.RESET'
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'background:b0|FSM3:f0|current_state.Begin'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'endgame:e0|FSMe:Fe|current_state.DRAW_b1'
+Slack : 0.328
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.872
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.778
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -8.558
+TNS   : -2902.909
+
+Type  : Slow 1100mV 0C Model Setup 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : -8.056
+TNS   : -73.646
+
+Type  : Slow 1100mV 0C Model Setup 'endgame:e0|FSMe:Fe|current_state.DRAW_b1'
+Slack : -7.458
+TNS   : -56.881
+
+Type  : Slow 1100mV 0C Model Setup 'menu:m0|FSMm:Fm|current_state.RESET'
+Slack : -7.359
+TNS   : -91.473
+
+Type  : Slow 1100mV 0C Model Setup 'crush:crush0|FSMcrush:Fm|current_state.RESET'
+Slack : -6.836
+TNS   : -94.723
+
+Type  : Slow 1100mV 0C Model Setup 'entrance:entrance0|FSMentrance:f0|current_state.Begin'
+Slack : -5.346
+TNS   : -54.620
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[0]'
+Slack : -4.949
+TNS   : -625.268
+
+Type  : Slow 1100mV 0C Model Setup 'background:b0|FSM3:f0|current_state.Begin'
+Slack : -4.863
+TNS   : -68.876
+
+Type  : Slow 1100mV 0C Model Setup 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 31.808
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -0.329
+TNS   : -3.151
+
+Type  : Slow 1100mV 0C Model Hold 'endgame:e0|FSMe:Fe|current_state.DRAW_b1'
+Slack : 0.014
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[0]'
+Slack : 0.238
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : 0.717
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'menu:m0|FSMm:Fm|current_state.RESET'
+Slack : 2.823
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'background:b0|FSM3:f0|current_state.Begin'
+Slack : 2.858
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'crush:crush0|FSMcrush:Fm|current_state.RESET'
+Slack : 2.970
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'entrance:entrance0|FSMentrance:f0|current_state.Begin'
+Slack : 3.312
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : -6.191
+TNS   : -12.303
+
+Type  : Slow 1100mV 0C Model Recovery 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : -3.072
+TNS   : -75.531
+
+Type  : Slow 1100mV 0C Model Removal 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : 0.468
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.214
+TNS   : -1.148
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'crush:crush0|FSMcrush:Fm|current_state.RESET'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'menu:m0|FSMm:Fm|current_state.RESET'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'entrance:entrance0|FSMentrance:f0|current_state.Begin'
+Slack : 0.217
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'background:b0|FSM3:f0|current_state.Begin'
+Slack : 0.242
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : 0.254
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'endgame:e0|FSMe:Fe|current_state.DRAW_b1'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.834
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.753
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.778
+TNS   : -2082.256
+
+Type  : Fast 1100mV 85C Model Setup 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : -4.544
+TNS   : -39.153
+
+Type  : Fast 1100mV 85C Model Setup 'endgame:e0|FSMe:Fe|current_state.DRAW_b1'
+Slack : -4.168
+TNS   : -30.056
+
+Type  : Fast 1100mV 85C Model Setup 'menu:m0|FSMm:Fm|current_state.RESET'
+Slack : -3.942
+TNS   : -45.289
+
+Type  : Fast 1100mV 85C Model Setup 'crush:crush0|FSMcrush:Fm|current_state.RESET'
+Slack : -3.737
+TNS   : -50.872
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[0]'
+Slack : -2.898
+TNS   : -338.922
+
+Type  : Fast 1100mV 85C Model Setup 'entrance:entrance0|FSMentrance:f0|current_state.Begin'
+Slack : -2.693
+TNS   : -27.621
+
+Type  : Fast 1100mV 85C Model Setup 'background:b0|FSM3:f0|current_state.Begin'
+Slack : -2.439
+TNS   : -33.757
+
+Type  : Fast 1100mV 85C Model Setup 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 33.680
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'endgame:e0|FSMe:Fe|current_state.DRAW_b1'
+Slack : -0.125
+TNS   : -0.125
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -0.011
+TNS   : -0.040
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[0]'
+Slack : 0.094
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.235
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'menu:m0|FSMm:Fm|current_state.RESET'
+Slack : 1.618
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'background:b0|FSM3:f0|current_state.Begin'
+Slack : 1.682
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'crush:crush0|FSMcrush:Fm|current_state.RESET'
+Slack : 1.753
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'entrance:entrance0|FSMentrance:f0|current_state.Begin'
+Slack : 2.002
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : -3.119
+TNS   : -6.172
+
+Type  : Fast 1100mV 85C Model Recovery 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : -2.169
+TNS   : -53.109
+
+Type  : Fast 1100mV 85C Model Removal 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : 0.316
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.339
+TNS   : -31.101
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'crush:crush0|FSMcrush:Fm|current_state.RESET'
+Slack : 0.221
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : 0.258
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'menu:m0|FSMm:Fm|current_state.RESET'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'background:b0|FSM3:f0|current_state.Begin'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'entrance:entrance0|FSMentrance:f0|current_state.Begin'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'endgame:e0|FSMe:Fe|current_state.DRAW_b1'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.810
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.891
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.254
+TNS   : -1824.766
+
+Type  : Fast 1100mV 0C Model Setup 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : -4.188
+TNS   : -36.657
+
+Type  : Fast 1100mV 0C Model Setup 'endgame:e0|FSMe:Fe|current_state.DRAW_b1'
+Slack : -3.850
+TNS   : -28.152
+
+Type  : Fast 1100mV 0C Model Setup 'menu:m0|FSMm:Fm|current_state.RESET'
+Slack : -3.670
+TNS   : -43.180
+
+Type  : Fast 1100mV 0C Model Setup 'crush:crush0|FSMcrush:Fm|current_state.RESET'
+Slack : -3.529
+TNS   : -47.737
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[0]'
+Slack : -2.601
+TNS   : -310.693
+
+Type  : Fast 1100mV 0C Model Setup 'entrance:entrance0|FSMentrance:f0|current_state.Begin'
+Slack : -2.550
+TNS   : -26.398
+
+Type  : Fast 1100mV 0C Model Setup 'background:b0|FSM3:f0|current_state.Begin'
+Slack : -2.336
+TNS   : -32.525
+
+Type  : Fast 1100mV 0C Model Setup 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 34.514
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -0.084
+TNS   : -4.995
+
+Type  : Fast 1100mV 0C Model Hold 'endgame:e0|FSMe:Fe|current_state.DRAW_b1'
+Slack : -0.064
+TNS   : -0.064
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[0]'
+Slack : 0.098
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : 0.336
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'menu:m0|FSMm:Fm|current_state.RESET'
+Slack : 1.631
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'background:b0|FSM3:f0|current_state.Begin'
+Slack : 1.695
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'crush:crush0|FSMcrush:Fm|current_state.RESET'
+Slack : 1.763
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'entrance:entrance0|FSMentrance:f0|current_state.Begin'
+Slack : 1.985
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : -2.964
+TNS   : -5.869
+
+Type  : Fast 1100mV 0C Model Recovery 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : -1.986
+TNS   : -48.725
+
+Type  : Fast 1100mV 0C Model Removal 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.291
+TNS   : -27.292
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'crush:crush0|FSMcrush:Fm|current_state.RESET'
+Slack : 0.257
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'endgame:e0|FSMe:Fe|current_state.DRAW_b10'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'menu:m0|FSMm:Fm|current_state.RESET'
+Slack : 0.309
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'background:b0|FSM3:f0|current_state.Begin'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'entrance:entrance0|FSMentrance:f0|current_state.Begin'
+Slack : 0.334
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'endgame:e0|FSMe:Fe|current_state.DRAW_b1'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.803
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.888
+TNS   : 0.000
+
+------------------------------------------------------------

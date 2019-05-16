@@ -1,0 +1,13 @@
+Info (10281): Verilog HDL Declaration information at car4.v(277): object "draw" differs only in case from object "DRAW" in the same scope
+Info (10281): Verilog HDL Declaration information at car1.v(278): object "draw" differs only in case from object "DRAW" in the same scope
+Info (10281): Verilog HDL Declaration information at car3.v(276): object "draw" differs only in case from object "DRAW" in the same scope
+Info (10281): Verilog HDL Declaration information at car2.v(276): object "draw" differs only in case from object "DRAW" in the same scope
+Info (10281): Verilog HDL Declaration information at project.v(567): object "crushed" differs only in case from object "Crushed" in the same scope
+Info (10281): Verilog HDL Declaration information at car5.v(170): object "draw" differs only in case from object "DRAW" in the same scope
+Info (10281): Verilog HDL Declaration information at car6.v(168): object "draw" differs only in case from object "DRAW" in the same scope
+Info (10281): Verilog HDL Declaration information at car7.v(168): object "draw" differs only in case from object "DRAW" in the same scope
+Info (10281): Verilog HDL Declaration information at car8.v(168): object "draw" differs only in case from object "DRAW" in the same scope
+Info (10281): Verilog HDL Declaration information at motocar9.v(191): object "draw" differs only in case from object "DRAW" in the same scope
+Info (10281): Verilog HDL Declaration information at motocar10.v(191): object "draw" differs only in case from object "DRAW" in the same scope
+Info (10281): Verilog HDL Declaration information at car12.v(168): object "draw" differs only in case from object "DRAW" in the same scope
+Info (10281): Verilog HDL Declaration information at car11.v(170): object "draw" differs only in case from object "DRAW" in the same scope
